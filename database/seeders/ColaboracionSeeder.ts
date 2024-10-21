@@ -6,8 +6,7 @@ export default class ColaboracionSeeder extends BaseSeeder {
     await Colaboracion.createMany([
       { cancionId: 1, artistaId: 2 }, // 'Tú y Yo' de Álvaro Díaz con Kendrick Lamar
       { cancionId: 2, artistaId: 1 }, // 'HUMBLE.' de Kendrick Lamar con Álvaro Díaz
-      { cancionId: 4, artistaId: 3 }, // 'Big Poppa' de Metro Boomin
-      { cancionId: 5, artistaId: 3 }, // 'No Complaints' de Metro Boomin
+      { cancionId: 4, artistaId: 3 }, // 'Overdue' de Metro Boomin
     ])
   }
 }
